@@ -19,6 +19,8 @@ print(doctor.comentario('Hola mundo!!'))
 
 
 class email():
+    pass
+
     def __init__(self):
         self.enviado = False
 
