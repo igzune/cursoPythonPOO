@@ -42,6 +42,6 @@ class raiz(calculadora):
         print('el resultado es: ', math.sqrt(a))
 
 
-ejemplo = raiz()
-print(ejemplo.ingresarDato())
-print(ejemplo.cuadrada())
+objeto = op_basicas()
+print(isinstance(objeto, calculadora))
+print(issubclass(op_basicas, calculadora))
